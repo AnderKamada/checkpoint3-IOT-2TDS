@@ -1,0 +1,8 @@
+[project]
+name = "checkpoint3-iot"
+
+[simulator]
+platform = "esp32"
+board = "esp32dev"
+firmware = "firmware.elf"
+serialMonitor = { display = "always" }
